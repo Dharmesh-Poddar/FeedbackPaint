@@ -1,0 +1,22 @@
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+html {
+  box-sizing: border-box;
+  background: whitesmoke;
+  font-family: sans-serif;
+}
+canvas {
+  background: white;
+}
+
+#paint-app {
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+}
+
+.placeholder {
+  position:absolute;
+  z-index:999;
+}
